@@ -22,6 +22,10 @@ export default class Home extends Component {
                 <Button title="Grade" onPress={ () => navigation.replace('Grade')}/>
                 </View>
 
+                <View style={{ margin: 15}}>
+                <Button title="Pajak" onPress={ () => navigation.replace('Pajak')}/>
+                </View>
+
             </View>
         )
     }

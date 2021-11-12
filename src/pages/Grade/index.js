@@ -61,7 +61,7 @@ export default class Grade extends Component {
                 onChangeText={(n3)=>this.setState({n3})}
                 keyboardType = 'numeric'
               />
-              <View style={{margin:15}}>
+              <View style={{margin:10}}>
               <Button
                 onPress={()=>this.setState({
                   na: (int1+int2+int3)/3
@@ -70,14 +70,14 @@ export default class Grade extends Component {
                 accessibilityLabel="Klik untuk menghitung"               
               />
               </View>
-              <View style={{margin:15}}>
+              <View style={{margin:10}}>
               <Button
               onPress={this.tampilGrade}
               title="Tampil Grade"
               accessibilityLabel="Klik untuk menghitung"               
               />
               </View>
-              <View style={{margin:15}}>
+              <View style={{margin:10}}>
               <Button title="Back to Home" onPress={ () => navigation.replace('Home')}/>
               </View>
          </View>
