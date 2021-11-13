@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {StyleSheet, Button, Text, TextInput, View } from 'react-native'
 
-export default class LuasSegitiga extends Component {
+export default class LuasLingkaran extends Component {
     constructor(props){
       super(props)
       this.state = {
